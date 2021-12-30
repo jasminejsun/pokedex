@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import { getAllPokemon, getPokemon } from './services/pokemon'
+import Card from './components/Card'
 import './App.css';
 
 function App() {
@@ -32,7 +33,11 @@ function App() {
   return (
     <div>
       { loading ? <h1>Loading..</h1> : (
-        <h1>Data is fetched</h1>
+        <div className="grid-container">
+          {pokemonData.map((pokemon, i) => {
+            return <Card key={i} pokemon={pokemon}/>
+          })}
+        </div>
       )}
     </div>
   );
