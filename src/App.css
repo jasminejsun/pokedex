@@ -18,10 +18,19 @@
 
 .btn button {
   border-style: none;
-  padding: 5px 10px;
+  padding: 10px 15px 5px 12px;
   margin-right: 10px;
   border-radius: 5px;
-  background: #30a7d7;
+  background: #2C2C2C;
+  opacity: 0.7;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.8em;
+}
+
+.fwd {
+  padding: 10px 13px 5px 14px !important;
+}
+
+.clickable:hover {
+  cursor: pointer;
 }
