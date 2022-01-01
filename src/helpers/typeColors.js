@@ -6,7 +6,7 @@ const typeColors = {
     ghost: '#7b62a3',
     ground: '#f7de3f',
     normal: '#666666',
-    pyschic: '#f366b9',
+    psychic: '#f366b9',
     steel: '#9eb7b',
     dark: '#707070',
     electric: '#eed535',

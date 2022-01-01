@@ -1,0 +1,54 @@
+.CardDetails {
+    background: #2C2C2C;
+    width: 100vw;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Card__weaknesses {
+    display: flex;
+    justify-content: center; 
+    font-weight: 500;  
+}
+
+.Card__weakness {
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    background: cyan;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.title-1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding-bottom: 5px
+}
+
+.description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.Card__evo {
+    font-size: 20px;
+    color: white;
+}

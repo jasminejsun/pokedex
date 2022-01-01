@@ -82,7 +82,6 @@ object-fit: contain;
 
 .Card__data {
     padding-bottom: 10px;
-    padding-left: 10%;
 }
 
 .Card__data .title {

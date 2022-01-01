@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import { useLocation } from "react-router-dom";
 import { getPokemon } from './services/pokemon'
 import Card from '../src/components/Card'
+import CardDetails from '../src/components/CardDetails'
 
 function Detail() {
     const location = useLocation();
@@ -33,6 +34,7 @@ function Detail() {
       { loading ? <h1>Loading..</h1> : (
         <>
             <Card key={0} pokemon={pokemonData}/>
+            <CardDetails pokemon={pokemonData}/>
         </>
       )}
     </div>
