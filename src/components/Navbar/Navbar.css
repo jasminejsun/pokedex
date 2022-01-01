@@ -3,9 +3,32 @@
     background: #2C2C2C;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
 }
 
+.Searchbar {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.Searchbar input {
+    width: 20vw;
+    height: 30px;
+    border-radius: 15px;
+    border: white;
+    padding: 5px 5px 5px 25px;
+}
+
+.search-btn {
+    border-radius: 40px;
+    border: white;
+    padding: 3px 6px;
+    background-color: white;
+    color: #2C2C2C;
+    margin-left: 5px;
+}
+ 
 .Logo {
-    width: 15%;
+    width: 50%
 }
